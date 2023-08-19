@@ -1,0 +1,51 @@
+/* CSS styles for the product detail page */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    /* Header styles */
+}
+
+main {
+    padding: 20px;
+}
+
+.product-detail {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.product-image img {
+    max-width: 400px;
+    max-height: 400px;
+}
+
+.product-info {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.product-info h2 {
+    font-size: 24px;
+}
+
+.product-info p {
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}

@@ -1,0 +1,147 @@
+/* CSS styles for the e-commerce website */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #EEC0C6;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+    padding:20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    padding:50px;
+    margin-left:2%;
+}
+
+.product {
+    width: 300px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border:1px solid;
+   paddding:10px;
+}
+
+.product h3 {
+    margin: 5px 0;
+}
+
+.product p {
+    margin-bottom: 10px;
+}
+
+.product a {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th,
+table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background-color: #f1f1f1;
+}
+
+table tr:last-child td {
+    border-bottom: none;
+}
+
+
+.footer{
+	width:93%;
+	padding:50px 100px ;
+	background:#1B2330;
+	
+}
+.container{
+	list-style: none;
+	color: #fff;
+}
+.row{
+	display: flex;
+	
+}
+.footer-col{
+	width:25%;
+	padding:0px 15px;
+	
+}
+.footer-col h4{
+	color:#6f7275 ;
+	text-transform: capitalize;
+	
+	margin-left:2rem;
+	position: relative;
+}
+.footer-col p{
+	color:#b7bac0 ;
+	margin-right: 20px;
+}
+.footer-col ul li{
+	list-style-type: none;
+	
+}
+.footer-col ul li a{
+	text-transform: capitalize;
+	text-decoration: none;
+	display: block;
+	color: #b7bac0;
+	padding: 2px;
+}
+.footer-col ul li a:hover{
+	color: #fff;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	background-color:rgba(255,255,255,0.2);
+	height: 50px;
+	width: 45px;
+	padding: 2px;
+	margin: 0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius:50%;
+}
+@media(max-width:767px){
+
+}
